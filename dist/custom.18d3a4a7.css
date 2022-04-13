@@ -11147,7 +11147,12 @@ textarea.form-control-lg {
 .card p {
   font-size: 14px;
   margin: 0px;
-  padding: 0;
+  padding: 0px;
+}
+
+.info p {
+  font-size: 20px;
+  text-align: r;
 }
 
 @media screen and (max-width: 601px) {
