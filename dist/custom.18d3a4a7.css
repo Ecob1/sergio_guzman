@@ -11138,6 +11138,12 @@ textarea.form-control-lg {
   padding-left: 5rem;
 }
 
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 @media screen and (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.5rem;
@@ -11150,9 +11156,16 @@ textarea.form-control-lg {
   padding: 0px;
 }
 
+.card_1 {
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+
 .info p {
   font-size: 20px;
-  text-align: r;
+  text-align: right;
 }
 
 @media screen and (max-width: 601px) {
