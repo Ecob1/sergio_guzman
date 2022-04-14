@@ -11150,16 +11150,14 @@ textarea.form-control-lg {
   padding: 0px;
 }
 
-.card_1 card-text {
+.card_1 .card-text {
   font-size: 14px;
-  margin: 0px;
-  padding: 0px;
   color: black;
 }
 
 .info p {
   font-size: 20px;
-  text-align: righ;
+  text-align: left;
 }
 
 @media screen and (max-width: 601px) {
@@ -11197,6 +11195,7 @@ textarea.form-control-lg {
 }
 
 footer {
+  width: 100%;
   background-color: rgb(129, 139, 148);
 }
 
