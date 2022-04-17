@@ -11153,9 +11153,16 @@ textarea.form-control-lg {
 .card_1 .card-text {
   font-size: 14px;
   color: black;
+  margin-left: 40px;
 }
 
 .info p {
+  font-size: 20px;
+  text-align: left;
+}
+
+.info ul li {
+  margin-left: 30px;
   font-size: 20px;
   text-align: left;
 }
@@ -11169,34 +11176,46 @@ textarea.form-control-lg {
   color: white;
 }
 
-.footer {
-  height: 150px;
-  background: rgb(81, 80, 80);
-  margin-top: 20px;
-}
-
 .weekend {
   margin-left: 0px;
-}
-
-.footer_web a {
-  text-decoration: none;
-}
-.footer_web a hover {
-  color: red;
 }
 
 .carusel {
   margin-bottom: 80px;
 }
 
+.col-1 {
+  margin: 80px;
+}
+
+.card-img {
+  margin-left: 60px;
+}
+
 .couter-2 {
   font-size: 12px;
 }
 
+.row {
+  margin: 0px;
+}
+
 footer {
-  width: 100%;
   background-color: rgb(129, 139, 148);
+}
+footer .container-footer {
+  width: 100px;
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 650px) {
+  footer {
+    background-color: rgb(129, 139, 148);
+  }
+  footer .container-footer {
+    width: 100%;
+    margin-top: 150px;
+  }
 }
 
 /*# sourceMappingURL=/custom.18d3a4a7.css.map */

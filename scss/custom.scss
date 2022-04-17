@@ -46,9 +46,16 @@ body{
 .card_1 .card-text{
     font-size: 14px;
     color: black;
+    margin-left: 40px;
 }
 
 .info p{
+    font-size: 20px;
+    text-align: left;
+}
+
+.info ul li{
+    margin-left: 90px;
     font-size: 20px;
     text-align: left;
 }
@@ -64,36 +71,18 @@ body{
     color: white;
 }
 
-.footer{
-    height: 150px;
-    background: rgb(81, 80, 80);
-    margin-top: 20px;
-}
 .weekend{
     margin-left: 0px;
 }
-
-
-.footer_web a{
-    text-decoration: none;
-    hover{
-        color: red;
-    }
-}
-
-
-// .card{
-//     background-color: lightblue;
-// }
-// .text{
-//     margin-top: 140px;
-    
-// }
-// .paragraph1{
-//     margin-left: 0px;
-// }
 .carusel{
     margin-bottom: 80px;
+}
+
+.col-1{
+    margin: 80px;
+}
+.card-img{
+    margin-left: 60px;
 }
 
 // @media screen and (max-width: 600px){
@@ -107,56 +96,24 @@ body{
     font-size: 12px;
 }
 
-footer .container{
-    width: 100%;
-    background-color: rgb(129, 139, 148);
-   
+.row{
+    margin: 0px;
 }
 
+footer {
+    background-color: rgb(129, 139, 148);    
+    .container-footer{  
+        width: 100px;     
+        margin-top: 150px;
+    }   
+}
 
-
-// <footer class="footer">
-//     <div class="hours  component">
-    
-//       <div class="row">
-//       <div class="col-md-12">
-//         <h3 class="hours-a__title ms-5 component__title">Hours of Operation</h3>            </div>
-//     </div>
-//     <div class="hours-a">
-//       <div class="hours-a__schedule d-none ms-5 d-lg-flex">
-//     <div class="row mx-5 px-5">
-//       <div class="hours-a__schedule--wrapper  row">
-//         <div class="col text-center hours-a__schedule--border">
-//           <strong>Monday</strong>
-//           <p>8:00 am<span> - </span>5:00 pm</p>
-//        </div>       
-//         <div class="col text-center hours-a__schedule--border">
-//           <strong>Tuesday</strong>
-//           <p>8:00 am<span> - </span>5:00 pm</p>
-//         </div>
-//         <div class="col text-center hours-a__schedule--border" data-uw-styling-context="true">
-//           <strong data-uw-styling-context="true">Wednesday</strong>
-//           <p data-uw-styling-context="true">8:00 am<span> - </span>5:00 pm</p>
-//         </div>
-//         <div class="col text-center hours-a__schedule--border">
-//           <strong>Thursday</strong>
-//           <p>8:00 am<span> - </span>5:00 pm</p>
-//         </div>
-//         <div class="col text-center hours-a__schedule--border">
-//           <strong>Friday</strong>
-//           <p>8:00 am<span> - </span>3:00 pm</p>
-//         </div>
-//         <div class="col text-center hours-a__schedule--border">
-//           <strong>Saturday</strong>
-//           <p>Closed</p>
-//         </div>
-//         <div class="col text-center hours-a__schedule--border">
-//           <strong>Sunday</strong>
-//           <p>Closed</p>
-//         </div>
-//       </div>  
-//     </div>
-//   </div>
-  
-              
-//   </footer>
+@media screen and(max-width: 650px){
+    footer {
+        background-color: rgb(129, 139, 148);        
+        .container-footer{  
+            width: 100%;         
+            margin-top: 150px;
+        }       
+    }
+}
